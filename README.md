@@ -1,6 +1,6 @@
 
 ## License
-This file is part of the project MEGSubnetworks. All code in MEGSubnetworks is free: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License on this link. You should have received a copy of the GNU General Public License along with MEGSubnetworkCode. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
+This file is part of the project MEGSubnetworks. All code in MEGSubnetworks is free: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License on this link. You should have received a copy of the GNU General Public License along with MEGSubnetworks. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 ## Status
 Manuscript has been submitted.
 
