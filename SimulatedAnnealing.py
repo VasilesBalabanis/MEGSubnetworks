@@ -212,7 +212,7 @@ def main():
     num_iterations = args.num_iterations
     listOfOutputs = parallel_SA_runs(num_iterations, region_number, session1Segment1, session2Segment1, session1Segment2, session2Segment2)
     storArr = np.array(listOfOutputs, dtype=object)
-    np.save('SimulatedAnnnealingSolutions10Region'+args.output_filename+'.npy', storArr)
+    np.save('allRuns'+args.output_filename+'.npy', storArr)
 
 if __name__ == '__main__':
     main()
