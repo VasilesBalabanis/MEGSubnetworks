@@ -29,6 +29,10 @@ def getCorr(individual, data):
             selected_elements.append(data[individual_array[i], individual_array[j]])
     return np.array(selected_elements)
 
+def hamming_distance(list1, list2):
+    if len(list1) != len(list2):
+        raise ValueError("Lists must be of the same length")
+    return sum(el1 != el2 for el1, el2 in zip(list1, list2))
 
 '''Evaluating solution: this decides the fitness of the sub-network. This requires both segments to have good fingerprinting accuracy.
 The equation is available on the readme.
