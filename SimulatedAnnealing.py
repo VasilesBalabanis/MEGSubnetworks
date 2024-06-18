@@ -7,16 +7,15 @@ import argparse
 import multiprocessing as mp
 import logging
 
-
 '''Change the names of the these loaded files to be your functional connectome numpy files.
 In my runs I use a (43,116,116) numpy. 43 is the number of individuals and 116x116 is the regions of the functional connectome.
 You can use any number of individuals or any type of atlas you want, so long as you change initial region configuration and generate neighbor function
 to the range of indices of your desired atlas.
 '''
-session1Segment1 = np.load("session1Segment1.npy")
-session2Segment1 = np.load("session2Segment1.npy")
-session1Segment2 = np.load("session1Segment2.npy")
-session2Segment2 = np.load("session2Segment2.npy")
+session1Segment1 = np.load("npArray11NoEye.npy")
+session2Segment1 = np.load("npArray21NoEye.npy")
+session1Segment2 = np.load("npArray12NoEye.npy")
+session2Segment2 = np.load("npArray22NoEye.npy")
 
 
 '''Extracting regions from functional connectome (FC): this picks regions from the FC which are selected by the optimization.
@@ -37,6 +36,7 @@ def hamming_distance(list1, list2):
     if len(list1) != len(list2):
         raise ValueError("Lists must be of the same length")
     return sum(el1 != el2 for el1, el2 in zip(list1, list2))
+
 
 '''Evaluating solution: this decides the fitness of the sub-network. This requires both segments to have good fingerprinting accuracy.
 The equation is available on the readme.
@@ -114,7 +114,7 @@ def generate_neighbor(solution):
         while new_value in neighbor:
             new_value = random.randint(0, 89)
         neighbor[replace_index] = new_value
-        
+
     return neighbor
 
 
@@ -178,7 +178,7 @@ def run_single_SA(iteration, region_number, session1Segment1, session2Segment1, 
         finalOutputForStorage = simulated_annealing(region_number, session1Segment1, session2Segment1, session1Segment2, session2Segment2)
         logging.info(f'Iteration {iteration} completed successfully')
     except Exception as e:
-        logging.error(f'Error in iteration {iteration}: {e}')
+        logging.error(f'Error in iteration {iteration}: {e}')      
     return finalOutputForStorage
 
 
@@ -212,7 +212,7 @@ def main():
     num_iterations = args.num_iterations
     listOfOutputs = parallel_SA_runs(num_iterations, region_number, session1Segment1, session2Segment1, session1Segment2, session2Segment2)
     storArr = np.array(listOfOutputs, dtype=object)
-    np.save('allRuns'+args.output_filename+'.npy', storArr)
+    np.save('SimulatedAnnnealingSolutions10Region'+args.output_filename+'.npy', storArr)
 
 if __name__ == '__main__':
     main()
