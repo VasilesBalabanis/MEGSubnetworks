@@ -168,6 +168,7 @@ def simulated_annealing(region_number, session1Segment1, session2Segment1, sessi
 
         temperature *= cooling_rate
         iteration += 1
+    return ([bestSolution, bestCost, bestDiff, bestClassif, allSolutions])
 
 
 '''This runs a single Simulated Annealing and collects all the regions in sub-networks, performance and classification values extracted from the convergence.
