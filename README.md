@@ -68,7 +68,7 @@ To set up a Python development environment using `conda` and install necessary l
 2. **Create a Conda Environment:**
    Open your command prompt or terminal and run:
    ```sh
-   conda create --name myenv python=3.11.0 pip
+   conda create --name myenv python=3.10.9 pip
    
 3. **To activate your environment:**
    Run this:
@@ -102,7 +102,7 @@ To set up a Python development environment using `conda` and install necessary l
 2. **Create a Conda Environment:**
    Open your command prompt or terminal and run:
    ```sh
-   conda create --name myenv
+   conda create --name myenv python=3.11.0 pip
    
 3. **To activate your environment:**
    Run this:
