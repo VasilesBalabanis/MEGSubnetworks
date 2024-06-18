@@ -12,10 +12,10 @@ In my runs I use a (43,116,116) numpy. 43 is the number of individuals and 116x1
 You can use any number of individuals or any type of atlas you want, so long as you change initial region configuration and generate neighbor function
 to the range of indices of your desired atlas.
 '''
-session1Segment1 = np.load("npArray11NoEye.npy")
-session2Segment1 = np.load("npArray21NoEye.npy")
-session1Segment2 = np.load("npArray12NoEye.npy")
-session2Segment2 = np.load("npArray22NoEye.npy")
+session1Segment1 = np.load("session1Segment1.npy")
+session2Segment1 = np.load("session2Segment1.npy")
+session1Segment2 = np.load("session1Segment2.npy")
+session2Segment2 = np.load("session2Segment2.npy")
 
 
 '''Extracting regions from functional connectome (FC): this picks regions from the FC which are selected by the optimization.
