@@ -98,7 +98,7 @@ To set up a Python development environment using `conda` and install necessary l
    python "Disease Differentiation.py"
    ```
 6. **Collect files**
-   Two numpy files will be produced. The first `autoencoderSubnetworkPredictions.npy`, representing final predictions of a model are in form `(number_of_folds, number_of_feature_subsets)`, where a nested list of `(num_of_diseased + num_of_healthy)*feature-size` test predictions as 0 or 1 is stored `(in the paper's case 5+5)`. The second `autoencoderSubnetworkEpochAccuracies.npy` representing accuracy changes during training is in form `(number_of_folds, number_of_feature_subsets, epoch)`. Only the test accuracy is stored in this numpy.
+   Two numpy files will be produced. The first `autoencoderSubnetworkPredictions.npy`, representing final predictions of a model are in form `(number_of_folds, number_of_feature_subsets)`, where a nested list of `(num_of_diseased + num_of_healthy)*feature-size` test predictions as 0 or 1 is stored. The second `autoencoderSubnetworkEpochAccuracies.npy` representing accuracy changes during training is in form `(number_of_folds, number_of_feature_subsets, epoch)`. Only the test accuracy is stored in this numpy.
 ## Instructions for Simulated Annealing optimization:
 
 1. **Install Conda:**
