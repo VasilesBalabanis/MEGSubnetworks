@@ -30,7 +30,7 @@ def getCorr(individual, data):
 
 
 '''
-This ensure cross-segment consistency of classifications.
+This ensure cross-segment consistency of fingerprinting classifications.
 '''
 def hamming_distance(list1, list2):
     if len(list1) != len(list2):
