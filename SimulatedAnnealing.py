@@ -29,6 +29,10 @@ def getCorr(individual, data):
             selected_elements.append(data[individual_array[i], individual_array[j]])
     return np.array(selected_elements)
 
+
+'''
+This ensure cross-segment consistency of classifications.
+'''
 def hamming_distance(list1, list2):
     if len(list1) != len(list2):
         raise ValueError("Lists must be of the same length")
