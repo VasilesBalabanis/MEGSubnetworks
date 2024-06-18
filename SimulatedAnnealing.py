@@ -114,7 +114,7 @@ def generate_neighbor(solution):
         while new_value in neighbor:
             new_value = random.randint(0, 89)
         neighbor[replace_index] = new_value
-
+        
     return neighbor
 
 
