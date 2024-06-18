@@ -131,7 +131,7 @@ To set up a Python development environment using `conda` and install necessary l
 ## Additional information on content:
 
 ### Simulated Annealing:
-To use the Simulated Annealing, I recommend parallel computing, preferably a supercomputer. It will take a very long time to run even with parallel computing (6-12 hours per 2500 instances of Simulated Annealing on 40 cores). You will need a recent version of python to run. I used Python 3.10.9. Additionally, you will need to provide functional connectome numpy files, in form (subjects, regions, regions). You will need two different functional connectome files, representing different segments in time for the Simulated Annealing to work, as it cross-validates between multiple segments. In my paper, I also filter out solutions that do not succeed on a third unseen segment.
+To use the Simulated Annealing, I recommend parallel computing, preferably a supercomputer. It will take a very long time to run even with parallel computing (6-12 hours per 2500 instances of Simulated Annealing on 40 cores). You will need a recent version of python to run. I used Python 3.11.0. Additionally, you will need to provide functional connectome numpy files, in form (subjects, regions, regions). You will need two different functional connectome files, representing different segments in time for the Simulated Annealing to work, as it cross-validates between multiple segments. In my paper, I also filter out solutions that do not succeed on a third unseen segment.
 
 ![image](https://github.com/VasilesBalabanis/MEGSubnetworkCode/assets/172070528/863265dd-0e20-47de-8a3f-011c49e7e9c1)
 ![image](https://github.com/VasilesBalabanis/MEGSubnetworkCode/assets/172070528/73176d59-ea13-475b-9bfb-6e77c34c4e3c)
