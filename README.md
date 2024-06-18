@@ -13,7 +13,7 @@ Vasiles Balabanis conducted all the analysis and was both first and correspondin
 ## Supervisors
 Professor [Jiaxiang Zhang](https://www.swansea.ac.uk/staff/jiaxiang.zhang/), Professor [Xianghua Xie](https://www.swansea.ac.uk/staff/x.xie/) and Dr [Su Yang](https://www.swansea.ac.uk/staff/su.yang/) from the Department of Computer Science in Swansea University.
 ## Dataset
-The dataset we used was for the Simulated Annealing optimization was collected in the CUBRIC facility, in Cardiff University and was multi-session resting-state data of 43 subjects. The dataset we used for disease differentiation of 30 Parkinson's disease patients and 30 healthy controls of single-session resting-state data was from the open-access [OMEGA](https://www.mcgill.ca/bic/neuroinformatics/omega) dataset.
+The dataset we used for the Simulated Annealing optimization was collected in the CUBRIC facility, in Cardiff University and was multi-session resting-state data of 43 subjects. The dataset we used for disease differentiation of 30 Parkinson's disease patients and 30 healthy controls of single-session resting-state data was from the open-access [OMEGA](https://www.mcgill.ca/bic/neuroinformatics/omega) dataset.
 
 ## Contents
 The codes listed below are intended to allow other researchers to find optimal sub-networks and differentiate diseases using MEG data.
