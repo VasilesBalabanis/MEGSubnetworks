@@ -49,17 +49,12 @@ To set up a Python development environment using `conda` and install necessary l
 1. **Anaconda or Miniconda** installed on your system. You can download it from:
    - [Anaconda](https://www.anaconda.com/products/distribution)
    - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-2. **Other Python Environment:** If you prefer not to use Conda, you can use `virtualenv` or `venv` to create isolated Python environments:
-   - [Virtualenv Guide](https://docs.python-guide.org/dev/virtualenvs/)
-   - [Venv Guide](https://docs.python.org/3/library/venv.html)
 
 ### Requirements for Simulated Annealing:
 1. **Anaconda or Miniconda** installed on your system. You can download it from:
    - [Anaconda](https://www.anaconda.com/products/distribution)
    - [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-2. **Other Python Environment:** If you prefer not to use Conda, you can use `virtualenv` or `venv` to create isolated Python environments:
-   - [Virtualenv Guide](https://docs.python-guide.org/dev/virtualenvs/)
-   - [Venv Guide](https://docs.python.org/3/library/venv.html)
+
 #### Optional: SLURM
 - **SLURM Workload Manager**: SLURM ideally should be installed and configured on your system. This is typically available on High-Performance Computing (HPC) systems. For more information on SLURM and its installation, you can refer to the [official documentation](https://slurm.schedmd.com/documentation.html).
 
