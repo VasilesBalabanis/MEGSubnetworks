@@ -5,7 +5,7 @@ This file is part of the project MEGSubnetworks. All code in MEGSubnetworks is f
 Manuscript has been submitted.
 
 ## Objective
-1) To identify people based on sub-network patterns of a functional connectome, maximizing fingerpinting metrics using Simulated Annealing optimization 2) To differentiate neurodegenerative diseases from healthy controls using these sub-networks with deep learning algorithms.
+1. To identify people based on sub-network patterns of a functional connectome, maximizing fingerpinting metrics using Simulated Annealing optimization 2. To differentiate neurodegenerative diseases from healthy controls using these sub-networks with deep learning algorithms.
 
 ## Collaborators
 Vasiles Balabanis conducted all the analysis and was both first and corresponding author.
