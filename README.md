@@ -1,6 +1,17 @@
 
 ## License
 This file is part of the project MEGSubnetworks. All code in MEGSubnetworks is free: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License on this link. You should have received a copy of the GNU General Public License along with MEGSubnetworks. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
+
+Each of the libraries we have used is distributed under a permissive license that allows for reuse and modification, provided that their original authors are credited.
+
+You can find their license details in the following files:
+- [scikit-learn](https://scikit-learn.org/) - BSD 3-Clause License
+- [seaborn](https://seaborn.pydata.org/) - BSD 3-Clause License
+- [matplotlib](https://matplotlib.org/) - PSF License (BSD 3-Clause compatible)
+- [TensorFlow](https://www.tensorflow.org/) - Apache License 2.0
+- [NumPy](https://numpy.org/) - BSD 3-Clause License
+- [argparse](https://docs.python.org/3/library/argparse.html) - Python Software Foundation License (PSF)
+
 ## Status
 Manuscript has been submitted.
 
