@@ -1,4 +1,4 @@
-# Tested with Python 3.10.9
+# Tested with Python 3.10
 
 numpy==1.23.5
 tensorflow==2.16.1
