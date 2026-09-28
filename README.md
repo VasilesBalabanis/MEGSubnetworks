@@ -10,9 +10,6 @@ Each of the libraries we have used is distributed under a permissive license tha
 - [NumPy](https://numpy.org/)
 - [argparse](https://docs.python.org/3/library/argparse.html)
 
-## Status
-Manuscript has been submitted.
-
 ## Objective
 1. To identify people based on sub-network patterns of a functional connectome, maximizing fingerpinting metrics using Simulated Annealing optimization 2. To differentiate neurodegenerative diseases from healthy controls using these sub-networks with deep learning algorithms.
 
