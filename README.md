@@ -11,7 +11,7 @@ Each of the libraries we have used is distributed under a permissive license tha
 - [argparse](https://docs.python.org/3/library/argparse.html)
 
 ## Objective
-1. To identify people based on sub-network patterns of a functional connectome, maximizing fingerpinting metrics using Simulated Annealing optimization 2. To differentiate neurodegenerative diseases from healthy controls using these sub-networks with deep learning algorithms.
+1. To identify people based on sub-network patterns of a functional connectome, maximizing fingerprinting metrics using Simulated Annealing optimization 2. To differentiate neurodegenerative diseases from healthy controls using these sub-networks with deep learning algorithms.
 
 ## Author
 Vasiles Balabanis conducted all the analysis and was both first and corresponding author.
@@ -23,7 +23,7 @@ The dataset we used for the Simulated Annealing optimization was collected in th
 
 ## Contents
 The codes listed below are intended to allow other researchers to find optimal sub-networks and differentiate diseases using MEG data.
-## 1-Disease Differentation.ipynb 
+## 1-Disease Differentiation.ipynb 
 Pipeline:
 1. Load MEG functional connectomes in format `(num_subjects, num_regions, num_regions)`
 2. Load sub-networks in format `(num_sub_networks, num_regions)`
