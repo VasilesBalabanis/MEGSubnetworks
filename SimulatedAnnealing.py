@@ -19,7 +19,7 @@ import multiprocessing as mp
 import logging
  
 '''Change the names of the these loaded files to be your functional connectome numpy files.
-In my runs I use a (43,116,116) numpy. 43 is the number of individuals and 116x116 is the regions of the functional connectome.
+In my runs I use a (43,90,90) numpy. 43 is the number of individuals and 90x90 is the regions of the functional connectome.
 You can use any number of individuals or any type of atlas you want, so long as you change initial region configuration and generate neighbor function
 to the range of indices of your desired atlas.
 '''
