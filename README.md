@@ -83,7 +83,7 @@ To set up a Python development environment using `conda` and install necessary l
    
 4. **Install packages for deep learning model**
    ```sh
-   pip install numpy tensorflow scikit-learn seaborn matplotlib
+   pip install -r requirements.txt
 
 5. **Using Jupyter Notebook to run the code or convert the .ipynb file to .py**
    Run the command below on your conda terminal to use Jupyter notebook. Navigate to the .ipynb file and run using the interface provided.
