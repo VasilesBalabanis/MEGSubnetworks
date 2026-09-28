@@ -5,3 +5,4 @@ tensorflow==2.16.1
 scikit-learn==1.2.1
 seaborn
 matplotlib
+notebook
