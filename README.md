@@ -132,6 +132,8 @@ To use the dual-objective stacked autoencoder, simply follow the notebook I have
 
 I did not optimize this model thoroughly. You do not need a GPU to run this. It takes me between 12-48 hours to complete without a GPU.
 
+![image](https://github.com/VasilesBalabanis/MEGSubnetworkCode/assets/172070528/874cba75-19b0-4b23-839d-361a51d4ca86)
+
 
 ## License
 This file is part of the project MEGSubnetworks. All code in MEGSubnetworks is free: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License on this link. You should have received a copy of the GNU General Public License along with MEGSubnetworks. If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
@@ -143,4 +145,3 @@ Each of the libraries we have used is distributed under a permissive license tha
 - [TensorFlow](https://www.tensorflow.org/)
 - [NumPy](https://numpy.org/)
 - [argparse](https://docs.python.org/3/library/argparse.html)
-![image](https://github.com/VasilesBalabanis/MEGSubnetworkCode/assets/172070528/874cba75-19b0-4b23-839d-361a51d4ca86)
