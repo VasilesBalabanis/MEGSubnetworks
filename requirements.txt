@@ -1,16 +1,5 @@
-# MEGSubnetworks dependencies
-# Version evidence from Disease Differentiation.ipynb:
-# Python 3.10.9, TensorFlow 2.16.1, scikit-learn 1.2.1, NumPy 1.23.5.
-# SimulatedAnnealing.py was documented as using Python 3.11.0.
-#
-# seaborn and matplotlib are used by the notebook, but the repository
-# does not record their exact versions, so they are intentionally unpinned.
-
 numpy==1.23.5
 tensorflow==2.16.1
 scikit-learn==1.2.1
 seaborn
 matplotlib
-
-# Needed to open/run the .ipynb interactively.
-notebook
