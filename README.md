@@ -1,6 +1,6 @@
 ## Objective
 1. To identify people based on sub-network patterns of a functional connectome, maximizing fingerprinting metrics using Simulated Annealing optimization
-2. 2. To differentiate neurodegenerative diseases from healthy controls using these sub-networks with deep learning algorithms.
+2. To differentiate neurodegenerative diseases from healthy controls using these sub-networks with deep learning algorithms.
 
 ## Author
 Vasiles Balabanis conducted all the analysis and was both first and corresponding author.
